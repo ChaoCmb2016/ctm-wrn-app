@@ -1,0 +1,14 @@
+#add{
+    float: right;
+    width: 32px;
+    height: 32px;
+}
+#title{
+    display:inline;
+    padding: 0px 0px 0px 32px;
+}
+
+.Header {
+    text-align: center;
+    margin:0.5cm 10px 0.3cm 0cm;
+  }
