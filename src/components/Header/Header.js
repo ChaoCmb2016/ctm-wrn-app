@@ -9,7 +9,7 @@ const Myheader=()=>{
 
     return (
         <div className="Header">
-            <h2 id="title">准实时预警展现</h2>
+            <h2 id="title">应用准实时进度监控</h2>
             <img id="add" src="add.png" alt="新增预警点" onClick={addSys}></img>
         </div>
     )

@@ -5,9 +5,15 @@
   "homepage": ".",
   "dependencies": {
     "concurrently": "^4.0.1",
+    "echarts": "^4.2.0-rc.1",
+    "echarts-for-react": "^2.0.15-beta.0",
     "nodemon": "^1.18.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-gesture": "0.0.5",
+    "react-hammerjs": "^1.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4"
   },
   "scripts": {

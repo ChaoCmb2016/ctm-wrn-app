@@ -92,12 +92,51 @@ router.get('/jsondata', async (ctx, next) => {
     }
   ];
   var tmpsysnodes=sysnodes;
-
-  
   
   ctx.body = {
     sysnodes:sysnodes,
   tmpsysnodes:tmpsysnodes}
 })
+
+router.get('/jsondatadetail', async (ctx, next) => {
+  var wrongjobs=[
+    {
+      id: 1, name: "FR_CRDA_FLTV003W", information: "拷贝报错", jobowner: "董超/374724",
+      tel: "13616528673", 
+    },
+    {
+      id: 2, name: "FR_CRDA_FLTV004W", information: "拷贝报错", jobowner: "董超/374724",
+      tel: "13616528673", 
+    },
+    {
+      id: 3, name: "FR_CRDA_FLTV004W", information: "拷贝报错", jobowner: "董超/374724",
+      tel: "13616528673", 
+    }
+  ];
+
+  var delayjobs=[
+    {
+      id: 1, name: "FR_CRDA_FLTV003W", minutes: "12", num_of_prejobs: "13",
+      jobowner:"董超/374724",  tel: "13616528673", 
+    },
+    {
+      id: 2, name: "FR_CRDA_FLTV004W", minutes: "12", num_of_prejobs: "13",
+       jobowner: "董超/374724",tel: "13616528673", 
+    },
+    {
+      id: 3, name: "FR_CRDA_FLTV004W", minutes: "12", num_of_prejobs: "13",
+       jobowner: "董超/374724",tel: "13616528673", 
+    }
+  ];
+  var otherjobs=[];
+  
+  ctx.body = {
+    wrongjobs:wrongjobs,
+    delayjobs:delayjobs,
+    otherjobs:otherjobs}
+})
+
+
+
 
 module.exports = router

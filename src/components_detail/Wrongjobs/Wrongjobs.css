@@ -1,0 +1,17 @@
+
+.wrongjob{
+    width:90%;
+    margin:12px auto;
+    border:1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 5px;
+    /* text-align: center; */
+}
+
+.fontstyle{
+    font-weight: bold;
+    font-size: 110%;
+}
+.right{
+    float: right;
+}
